@@ -1,0 +1,17 @@
+.Contact {
+  text-align: center;
+  background-image: url(./images/contact.jpg);
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 92px; 
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; 
+}
+.Contact-text{
+   color: #2E3947;
+
+}

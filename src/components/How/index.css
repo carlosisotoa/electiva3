@@ -1,6 +1,6 @@
-.Content {
+.How {
   text-align: center;
-  background-image: url(../images/lady-justice.jpg);
+  background-image: url(./images/how.jpg);
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: center; 
 }
-.Content-text{
-   color: #B3B9C1;
+.How-text{
+   color: #2E3947;
 
 }
