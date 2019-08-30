@@ -1,0 +1,15 @@
+.Footer {
+  text-align: center;
+  background-color: #425164;
+  min-height: 6vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+ }
+.Footer-text {
+	color: #FFF;	
+	font-size: calc(10px + .1vmin);
+}
+

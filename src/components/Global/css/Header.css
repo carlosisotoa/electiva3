@@ -1,0 +1,18 @@
+.Header {
+  text-align: center;
+  background-color: #2E3947;
+  height: 15px;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+ }
+
+.Header-left {
+  color: #B3B9C1;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  font-variant: small-caps; 
+}

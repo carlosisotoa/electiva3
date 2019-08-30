@@ -1,6 +1,6 @@
 .Content {
   text-align: center;
-  background-image: url(lady-justice.jpg);
+  background-image: url(../images/lady-justice.jpg);
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -10,8 +10,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center; 
-   
- 
 }
 .Content-text{
    color: #B3B9C1;
