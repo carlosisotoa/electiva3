@@ -1,16 +1,17 @@
 .Content {
   text-align: center;
-  background-image: url(../images/lady-justice.jpg);
+  background-image: url(../images/lady-justice2.jpg);
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 150px; 
-  min-height: 87vh;
+  height: 92px; 
+  min-height: 80vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center; 
 }
 .Content-text{
    color: #B3B9C1;
+
 }

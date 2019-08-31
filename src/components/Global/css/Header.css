@@ -1,12 +1,14 @@
 .Header {
-  text-align: center;
+  text-align:left;
   background-color: #2E3947;
-  height: 15px;
+  height: 90px;
   min-height: 5vh;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  
  }
 
 .Header-left {
@@ -15,4 +17,27 @@
   font-size: 14px;
   font-weight: bold;
   font-variant: small-caps; 
+ }
+ 
+.Menu {
+ 
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right:  15px;
+}
+.Menu li {
+  
+  margin-left: 10px;
+  list-style: none;
+  color: #B3B9C1;
+  font-size: 14px;
+  font-weight: bold;
+  font-variant: small-caps;
+  display: inline-block;
+  
+
 }

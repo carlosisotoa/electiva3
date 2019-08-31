@@ -8,9 +8,10 @@ class Content extends Component{
 		return(
 			<div className="Content">
 				<div className="Content">
-					<div className="Content-text">
+					
+				</div>
+				<div className="Content-text">
 						<h1>React</h1>
-					</div>
 				</div>
 			</div>
 		);
