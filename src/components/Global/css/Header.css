@@ -20,17 +20,27 @@
  }
  
 .Menu {
- 
-  padding: 0px;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   flex-wrap: wrap;
   justify-content: space-between;
+
   margin-right:  15px;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 3px;
+  list-style: none;
+
 }
 .Menu li {
-  
+  text-align: center;
+
+}
+.Menu li:hover {
+  background: #060709;
+}
+.Menu a {
   margin-left: 10px;
   list-style: none;
   color: #B3B9C1;
@@ -38,6 +48,5 @@
   font-weight: bold;
   font-variant: small-caps;
   display: inline-block;
-  
-
-}
+  text-decoration: none;
+ }
