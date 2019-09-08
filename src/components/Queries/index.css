@@ -1,0 +1,61 @@
+.Queries {
+  display: flex;
+  width: 800px;
+  height: 400;
+  background-color: #FFF;
+  margin: 5% auto;
+  padding-bottom: 1rem;
+  flex-direction: column;
+   
+}
+.Queries-form-top{
+   width: 100%;
+   text-align: center;
+   padding: 2rem 0 1rem;
+   border-top: solid .4rem #9C9C9C;
+   margin-bottom: 1rem;
+
+}
+.Queries-form-top h1{
+  font-weight: bold;
+  color: #9E9E9E;
+  font-size: 30px;
+}
+
+h1 span{
+  color: #757575;
+} 
+.Queries-form{
+  display: flex;
+  flex-direction: column;
+}
+.Queries-btn-form{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 1rem;
+
+}
+
+.input, .textarea, .btn-submit, .btn-reset{
+  background-color: #EFEFEF;
+  padding: .5rem;
+  margin: .5rem 0;
+  border: none;
+  border-bottom: solid #C8C8C8 .2rem;
+  transition: all .5s;
+}
+
+.btn-submit, .btn-reset{
+  color: #212121;
+  width: 80px;
+  border-right: solid #C8C8C8 .6rem;
+  
+}
+
+.input:focus{
+  width: 100%;
+  border-bottom: none;
+  background-color: #BDBDBD;
+  color: #757575;
+}

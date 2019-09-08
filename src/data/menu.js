@@ -16,8 +16,8 @@ export default [
 		url:"/about"
 	},
 	{
-		title: "noticias",
-		url:"/news"
+		title: "realiza tu consulta",
+		url:"/queries"
 	},
 	{
 		title: "contacto",

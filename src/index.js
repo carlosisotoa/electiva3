@@ -9,7 +9,7 @@ import How from './components/How';
 import Areas from './components/Areas';
 
 import About from './components/About'; 
-import News from './components/News';
+import Queries from './components/Queries';
 
 
 import Contact from './components/Contact';
@@ -24,7 +24,7 @@ const AppRoutes = () =>
 		<Route path="/how" component={How}  />
 		<Route path="/areas" component={Areas}  />
 		<Route path="/about" component={About}  />
-		<Route path="/news" component={News}  />
+		<Route path="/queries" component={Queries}  />
 		<Route path="/contact" component={Contact}  />
 		<Route path="/" component={Home}  />
 		
