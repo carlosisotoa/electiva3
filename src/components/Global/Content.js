@@ -3,6 +3,10 @@ import React, { Component }  from "react";
 import ReactDOM, { render} from "react-dom";
 import PropTypes from 'prop-types';
 
+// Assets
+
+
+
 class Content extends Component{
 	static propTypes = {
 		body: PropTypes.object.isRequired
@@ -10,7 +14,7 @@ class Content extends Component{
 	render(){
 		const { body } = this.props;
 		return(
-			<div >
+			<div  >
 				{ body }
 				
 			</div>

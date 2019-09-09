@@ -1,0 +1,6 @@
+
+.Info p {
+	color: #01135b;	
+	font-size: calc(10px + .1vmin);
+}
+

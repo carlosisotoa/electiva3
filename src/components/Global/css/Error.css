@@ -1,0 +1,6 @@
+
+.ShowError p {
+	color: #c42929;	
+	font-size: calc(10px + .1vmin);
+}
+

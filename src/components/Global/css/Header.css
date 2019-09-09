@@ -8,6 +8,7 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: flex-end;
+
   
  }
 
@@ -17,6 +18,7 @@
   font-size: 14px;
   font-weight: bold;
   font-variant: small-caps; 
+
  }
  
 .Menu {
@@ -26,27 +28,31 @@
   flex-wrap: wrap;
   justify-content: space-between;
 
-  margin-right:  15px;
+  margin-right:  17px;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 3px;
   list-style: none;
 
+
 }
 .Menu li {
   text-align: center;
+  transition: all .5s;
 
 }
 .Menu li:hover {
+
   background: #060709;
+
 }
-.Menu a {
-  margin-left: 10px;
+.Menu li a {
+  margin-left: 5px;
+  margin-right: 5px;
   list-style: none;
   color: #B3B9C1;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: bold;
   font-variant: small-caps;
-  display: inline-block;
   text-decoration: none;
  }

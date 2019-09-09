@@ -1,20 +1,16 @@
 .Queries {
   display: flex;
-  width: 800px;
-  height: 400;
+  width: 80%;
+  margin-top:  5%;
+  margin-left: 10%;
+  margin-right: 10%;
   background-color: #FFF;
-  margin: 5% auto;
-  padding-bottom: 1rem;
   flex-direction: column;
-   
+  
 }
 .Queries-form-top{
-   width: 100%;
-   text-align: center;
-   padding: 2rem 0 1rem;
-   border-top: solid .4rem #9C9C9C;
-   margin-bottom: 1rem;
-
+    border-top: solid .4rem #9C9C9C;
+    text-align: center; 
 }
 .Queries-form-top h1{
   font-weight: bold;
@@ -22,15 +18,20 @@
   font-size: 30px;
 }
 
-h1 span{
-  color: #757575;
-} 
 .Queries-form{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+ 
 }
+
+h1 span{
+  color: #757575;
+} 
+
 .Queries-btn-form{
   display: flex;
+  width: 100%;
   justify-content: space-around;
   flex-direction: row;
   margin-top: 1rem;
