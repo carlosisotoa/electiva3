@@ -8,12 +8,12 @@ import App from "./components/App";
 import How from './components/How';
 import Areas from './components/Areas';
 
-import About from './components/About'; 
-import Queries from './components/Queries';
+import About from './components/About';
+import Queries from './containers/Query';
 
 
 import Contact from './components/Contact';
-import Home from './components/Home'; 
+import Home from './components/Home';
 
 //Assets
 import './index.css';
@@ -27,13 +27,13 @@ const AppRoutes = () =>
 		<Route path="/queries" component={Queries}  />
 		<Route path="/contact" component={Contact}  />
 		<Route path="/" component={Home}  />
-		
+
 	</Switch>
 </App>;
 
 render(
 	<Router>
 		<AppRoutes />
-	</Router>, 
+	</Router>,
 	document.getElementById("root")
 );
